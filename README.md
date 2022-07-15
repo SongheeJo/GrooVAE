@@ -28,8 +28,6 @@
 
 ## 4. 샘플 확인
 
-## 5. 회고
-* 미디 데이터, 비트/마디 개념
 ------
 ### 참고자료
 * 코드: https://github.com/magenta/magenta/tree/master/magenta/models/music_vae
