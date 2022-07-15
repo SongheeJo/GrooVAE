@@ -6,18 +6,30 @@
 ------
 ## 1. 전처리
 * encoder를 사용하여 미디(.midi)를 vector(tfrecord)로 변환
+
+### (1) 직접 전처리
  * 데이터 로드
- * 
+ * tfrecord로 저장
 
-
+### (2) magenta의 전처리된 코드를 불러오기
+* https://github.com/magenta/magenta/blob/main/magenta/models/music_vae/data.py
+* https://github.com/magenta/magenta/blob/main/magenta/models/music_vae/preprocess_tfrecord.py
+ 
 ## 2. 학습
+### (1) pretrained-model을 사용 (.py)
+* 참고 https://colab.research.google.com/github/magenta/magenta-demos/blob/master/colab-notebooks/MusicVAE.ipynb
+
+### (2) GrooveConverter 클래스 
+* 참고 https://github.com/magenta/magenta/blob/main/magenta/models/music_vae/data.py
 
 
 ## 3. 생성
 * decoder를 사용
 
-## 4. 회고
-* 미디 데이터
+## 4. 샘플 확인
+
+## 5. 회고
+* 미디 데이터, 비트/마디 개념
 ------
 ### 참고자료
 * 코드: https://github.com/magenta/magenta/tree/master/magenta/models/music_vae
